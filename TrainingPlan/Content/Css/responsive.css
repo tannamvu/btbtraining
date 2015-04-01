@@ -1,5 +1,9 @@
 @media (max-width: 1200px) {
 	
+        .features {
+            height: 400px !important;
+        }
+
 		.ready2 a {
 		float: left;
 		margin-top: 35px;
@@ -46,6 +50,9 @@
 }
 
 @media (max-width: 992px) {
+    .features {
+        height: 300px !important;
+    }
 
 	.top-info {
 	text-align: left;
@@ -169,6 +176,9 @@
 }
 
 @media (max-width: 767px) {
+    .features {
+        height: 200px !important;
+    }
 
 	.logo {
 		float: left;
@@ -331,6 +341,10 @@
 }
 
 @media (max-width: 582px) {
+
+    .features {
+        height: 100px !important;
+    }
 
 	.filter-container li {
 	width: 100%;
