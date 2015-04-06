@@ -255,7 +255,7 @@ p{
 }
 
 .top-info {
-  text-align: right;
+  text-align: center;
   padding-top: 4px;
 }
 
@@ -324,7 +324,11 @@ margin-top: 9px;
 
 .logo {
   float: left;
-  padding: 36px 0;
+  padding: 15px 0;
+}
+
+.logo img {
+    height: 60px;
 }
 
 header .navbar .navbar-collapse {
