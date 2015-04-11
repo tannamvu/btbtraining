@@ -241,6 +241,9 @@
     <Content Include="Content\Images\submit.png" />
     <Content Include="Content\Images\switcher.gif" />
     <Content Include="Content\Images\twt-icon.png" />
+    <Content Include="Content\Images\Updated\connectb10.jpg" />
+    <Content Include="Content\Images\Updated\connectb7.jpg" />
+    <Content Include="Content\Images\Updated\sales1.jpg" />
     <Content Include="Content\Images\Updated\sales3.jpg" />
     <Content Include="Content\Js\bootstrap.js" />
     <Content Include="Content\Js\gmap3.min.js" />
