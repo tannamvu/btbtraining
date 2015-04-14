@@ -1,4 +1,4 @@
-﻿
+﻿@model TrainingPlan.Models.ContactUsViewModel 
 @{
     ViewBag.Title = "Contact Us";
 }
@@ -20,20 +20,26 @@
 
 						<div class="row">
 
-							<div class="col-md-8">
-								<form id="contact-form" action="#">
-									<input name="name" id="name" type="text" placeholder="Name">
+						    <div class="col-md-8">
+						        
+                                @using (@Html.BeginForm("EmailEnquiry", "Home", FormMethod.Post, new { id = "contact-form" }))
+                                {
+                                    @Html.TextBoxFor(m => m.Name, new { id = "name", name = "name", placeholder = "Name" })
+                                }
 
-									<input name="mail" id="mail" type="text"  placeholder="Email">
+						        <form id="contact-form" action="#">
+						            <input name="name" id="name" type="text" placeholder="Name">
 
-									<input name="subject" id="subject" type="text"  placeholder="Subject">	
+						            <input name="mail" id="mail" type="text"  placeholder="Email">
 
-									<textarea name="comment" id="comment"  placeholder="Message"></textarea>
+						            <input name="subject" id="subject" type="text"  placeholder="Subject">	
 
-				  					<input type="submit" value="Send"  id="submit_contact">
-					  				<div id="msg" class="message"></div>
-					  			</form>
-							</div>
+						            <textarea name="comment" id="comment"  placeholder="Message"></textarea>
+
+						            <input type="submit" value="Send"  id="submit_contact">
+						            <div id="msg" class="message"></div>
+						        </form>
+						    </div>
 							<!-- end contactfort -->
 							<div class="col-md-4 touch">
 
