@@ -1,54 +1,32 @@
 ﻿using System.Net;
 using System.Net.Mail;
-
+using SendGrid;
 
 namespace TrainingPlan.Services
 {
     public class EmailService
     {
-        private readonly SmtpClient _client;
+        private const string Username = "azure_8aa224a4adff9b6f22626db352f958b7@azure.com";
+        private const string Pswd = "9fOVb781UeTzPvX";
 
-        public EmailService()
+        public static void SendEmail(string subject, string body)
         {
-            _client = new SmtpClient();
-        }
+            var credentials = new NetworkCredential(Username, Pswd);
 
-        public void SendEmail(string subject, string body)
-        {
-            var mail = new MailMessage();
-
-            var smtpServer = new SmtpClient("smtp.gmail.com")
-                {
-                    Credentials = new NetworkCredential("webmasterbtbtraining@gmail.com", "password@!!"),
-                    Port = 587,
-                    EnableSsl = true
-                };
-
-            var mailMessage = new MailMessage("webmaster@btbtraining.com", "nam.vu@bbc.com", subject, body);
-
-            //mail.From = new MailAddress("webmaster@btbtraining.com");
-            //mail.To.Add("nam.vu@bbc.com");
-            //mail.Subject = subject;
-            //mail.Body = body;
+            //todo: Make this asynchronous 
             
-            //smtpServer.Send(mail);
+            // Create the email object first, then add the properties.
+            var myMessage = new SendGridMessage();
+            myMessage.AddTo("enquiries@btbtraining.com");
+            myMessage.From = new MailAddress("webmaster@btbtraining.com", "Webmaster");
+            myMessage.Subject = subject;
+            myMessage.Text = body;
 
-            smtpServer.SendMailAsync(mailMessage);
-            
+            // Create an Web transport for sending email.
+            var transportWeb = new Web(credentials);
 
-            //var message = new MailMessage("webmasterbtbtraining@gmail.com", "nam.vu@bbc.com")
-            //    {
-            //        Subject = "What Up, Dog?",
-            //        Body = "Why you gotta be all up in my grill?"
-            //    };
-            //var mailer = new SmtpClient("smtp.gmail.com")
-            //    {
-            //        Credentials = new NetworkCredential("webmasterbtbtraining@gmail.com", "password@!!"),
-            //        Port = 465,
-            //        EnableSsl = true
-            //    };
-
-            //mailer.Send(message);
+            // Send the email.
+            transportWeb.DeliverAsync(myMessage);
         }
     }
 }

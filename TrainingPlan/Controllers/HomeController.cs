@@ -10,11 +10,8 @@ namespace TrainingPlan.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly EmailService _emailService;
-
         public HomeController()
         {
-            _emailService = new EmailService();                    
             ViewBag.IsActiveLink = string.Empty;
         }
         //
@@ -51,7 +48,7 @@ namespace TrainingPlan.Controllers
             {
                 var body = string.Format("Name: {1}{0}{0} Email: {2}{0}{0} Message:{3}", Environment.NewLine, viewModel.Name, viewModel.Email, viewModel.Message);
 
-                _emailService.SendEmail(viewModel.Subject, body);
+                EmailService.SendEmail(viewModel.Subject, body);
             }
 
             return RedirectToAction("ContactUs");
