@@ -32,7 +32,9 @@ namespace TrainingPlan.Services
             //mail.Body = body;
             
             //smtpServer.Send(mail);
-            smtpServer.SendAsync(mailMessage, null);
+
+            smtpServer.SendMailAsync(mailMessage);
+            
 
             //var message = new MailMessage("webmasterbtbtraining@gmail.com", "nam.vu@bbc.com")
             //    {
