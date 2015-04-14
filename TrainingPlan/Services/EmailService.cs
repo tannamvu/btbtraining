@@ -17,16 +17,18 @@ namespace TrainingPlan.Services
         {
             var mail = new MailMessage();
 
-            var smtpServer = new SmtpClient("smtp.gmail.com");
-            smtpServer.Credentials = new System.Net.NetworkCredential("webmasterbtbtraining@gmail.com", "password@!!");
-            smtpServer.Port = 587; // Gmail works on this port
-            smtpServer.EnableSsl = true;
+            var smtpServer = new SmtpClient("smtp.gmail.com")
+                {
+                    Credentials = new NetworkCredential("webmasterbtbtraining@gmail.com", "password@!!"),
+                    Port = 587,
+                    EnableSsl = true
+                };
 
-            mail.From = new MailAddress("webmasterbtbtraining@gmail.com");
+            mail.From = new MailAddress("webmaster@btbtraining.com");
             mail.To.Add("nam.vu@bbc.com");
             mail.Subject = subject;
             mail.Body = body;
-
+            
             smtpServer.Send(mail);
 
             //var message = new MailMessage("webmasterbtbtraining@gmail.com", "nam.vu@bbc.com")

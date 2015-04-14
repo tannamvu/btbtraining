@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TrainingPlan.Models;
 using TrainingPlan.Services;
 
 namespace TrainingPlan.Controllers
@@ -39,14 +40,20 @@ namespace TrainingPlan.Controllers
 
         public ActionResult ContactUs()
         {
-            _emailService.SendEmail("test subject from website", "test body from website");
             ViewBag.ContactUsIsActiveLink = "active";
             return View();
         }
 
         [HttpPost]
-        public ActionResult EmailEnquiry()
+        public ActionResult EmailEnquiry(ContactUsViewModel viewModel)
         {
+            if (ModelState.IsValid)
+            {
+                var body = string.Format("Name: {1}{0}{0} Email: {2}{0}{0} Message:{3}", Environment.NewLine, viewModel.Name, viewModel.Email, viewModel.Message);
+
+                _emailService.SendEmail(viewModel.Subject, body);
+            }
+
             return RedirectToAction("ContactUs");
         }
 	}

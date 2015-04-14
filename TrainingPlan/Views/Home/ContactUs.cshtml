@@ -22,12 +22,19 @@
 
 						    <div class="col-md-8">
 						        
-                                @using (@Html.BeginForm("EmailEnquiry", "Home", FormMethod.Post, new { id = "contact-form" }))
+                                @using (Html.BeginForm("EmailEnquiry", "Home", FormMethod.Post, new { id = "contact-form" }))
                                 {
                                     @Html.TextBoxFor(m => m.Name, new { id = "name", name = "name", placeholder = "Name" })
-                                }
+                                    @Html.TextBoxFor(m => m.Email, new { id = "mail", name = "mail", placeholder = "Email" })
+                                    @Html.TextBoxFor(m => m.Subject, new { id = "subject", name = "subject", placeholder = "Subject" })
+                                    @Html.TextAreaFor(m => m.Message, new { id = "comment", name = "comment", placeholder = "Message"})
+                                    
+                                    <input type="submit" value="Send" name="Submit"  id="submit_contact" />
 
-						        <form id="contact-form" action="#">
+						            @*<div id="msg" class="message"></div>*@
+                                    }
+
+						       @* <form id="contact-form" action="#">
 						            <input name="name" id="name" type="text" placeholder="Name">
 
 						            <input name="mail" id="mail" type="text"  placeholder="Email">
@@ -38,7 +45,7 @@
 
 						            <input type="submit" value="Send"  id="submit_contact">
 						            <div id="msg" class="message"></div>
-						        </form>
+						        </form>*@
 						    </div>
 							<!-- end contactfort -->
 							<div class="col-md-4 touch">
