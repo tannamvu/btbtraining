@@ -10,7 +10,22 @@ namespace TrainingPlan.Controllers
     {
         //
         // GET: /Portfolio/
-        public ActionResult Index()
+        public ActionResult TwoPageColumn()
+        {
+            return View();
+        }
+
+        public ActionResult ThreePageColumn()
+        {
+            return View();
+        }
+
+        public ActionResult FourPageColumn()
+        {
+            return View();
+        }
+
+        public ActionResult SingleColumn()
         {
             return View();
         }

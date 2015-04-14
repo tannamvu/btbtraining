@@ -441,6 +441,9 @@
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Home\ContactUs.cshtml" />
     <Content Include="Views\Portfolio\Index.cshtml" />
+    <Content Include="Views\Portfolio\ThreePageColumn.cshtml" />
+    <Content Include="Views\Portfolio\FourPageColumn.cshtml" />
+    <Content Include="Views\Portfolio\SingleColumn.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
