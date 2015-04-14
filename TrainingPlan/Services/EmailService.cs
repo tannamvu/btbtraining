@@ -24,12 +24,15 @@ namespace TrainingPlan.Services
                     EnableSsl = true
                 };
 
-            mail.From = new MailAddress("webmaster@btbtraining.com");
-            mail.To.Add("nam.vu@bbc.com");
-            mail.Subject = subject;
-            mail.Body = body;
+            var mailMessage = new MailMessage("webmaster@btbtraining.com", "nam.vu@bbc.com", subject, body);
+
+            //mail.From = new MailAddress("webmaster@btbtraining.com");
+            //mail.To.Add("nam.vu@bbc.com");
+            //mail.Subject = subject;
+            //mail.Body = body;
             
-            smtpServer.Send(mail);
+            //smtpServer.Send(mail);
+            smtpServer.SendAsync(mailMessage, null);
 
             //var message = new MailMessage("webmasterbtbtraining@gmail.com", "nam.vu@bbc.com")
             //    {
