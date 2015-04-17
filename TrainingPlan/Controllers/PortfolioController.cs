@@ -8,26 +8,27 @@ namespace TrainingPlan.Controllers
 {
     public class PortfolioController : Controller
     {
-        //
-        // GET: /Portfolio/
-        public ActionResult TwoPageColumn()
-        {
-            return View();
-        }
+        ////
+        //// GET: /Portfolio/
+        //public ActionResult TwoPageColumn()
+        //{
+        //    return View();
+        //}
 
-        public ActionResult ThreePageColumn()
-        {
-            return View();
-        }
+        //public ActionResult ThreePageColumn()
+        //{
+        //    return View();
+        //}
 
+        [Route("Portfolio", Name = "portfolio")]
         public ActionResult FourPageColumn()
         {
             return View();
         }
 
-        public ActionResult SingleColumn()
-        {
-            return View();
-        }
+        //public ActionResult SingleColumn()
+        //{
+        //    return View();
+        //}
 	}
 }

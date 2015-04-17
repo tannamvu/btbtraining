@@ -27,10 +27,24 @@ namespace TrainingPlan
                 defaults: new {controller = "Home", action = "ContactUs", id = UrlParameter.Optional}
                 );
 
+            //routes.MapRoute(
+            //    name: "Portfolio",
+            //    url: "Portfolio",
+            //    defaults: new {controller = "Portfolio", action = "Index", id = UrlParameter.Optional}
+            //    );
+
+            //routes.MapRoute(
+            //    name: "PortfolioFourPageColumn",
+            //    url: "Portfolio/FourPageColumn",
+            //    defaults: new { controller = "Portfolio", action = "FourPageColumn", id = UrlParameter.Optional }
+            //    );
+
+            routes.MapMvcAttributeRoutes();
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }               
             );
         }
     }
