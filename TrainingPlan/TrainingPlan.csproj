@@ -443,7 +443,9 @@
     <Content Include="Views\Portfolio\TwoPageColumn.cshtml" />
     <Content Include="Views\Portfolio\ThreePageColumn.cshtml" />
     <Content Include="Views\Portfolio\FourPageColumn.cshtml" />
-    <Content Include="Views\Portfolio\SingleColumn.cshtml" />
+    <Content Include="Views\Portfolio\ManagementAndLeadership.cshtml" />
+    <Content Include="Views\Portfolio\Copy of SingleColumn.cshtml" />
+    <Content Include="Views\Portfolio\PersonalDevelopment.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
