@@ -443,11 +443,12 @@
     <Content Include="Views\Portfolio\TwoPageColumn.cshtml" />
     <Content Include="Views\Portfolio\ThreePageColumn.cshtml" />
     <Content Include="Views\Portfolio\FourPageColumn.cshtml" />
-    <Content Include="Views\Portfolio\ManagementAndLeadership.cshtml" />
+    <Content Include="Views\Portfolio\Courses\ManagementAndLeadership.cshtml" />
     <Content Include="Views\Portfolio\Copy of SingleColumn.cshtml" />
-    <Content Include="Views\Portfolio\PersonalDevelopment.cshtml" />
-    <Content Include="Views\Portfolio\SalesAndCustomerService.cshtml" />
-    <Content Include="Views\Portfolio\CustomisedCourses.cshtml" />
+    <Content Include="Views\Portfolio\Courses\PersonalDevelopment.cshtml" />
+    <Content Include="Views\Portfolio\Courses\SalesAndCustomerService.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CustomisedCourses.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\ManagementAndLeadership.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

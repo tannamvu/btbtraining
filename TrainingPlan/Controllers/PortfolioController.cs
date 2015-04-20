@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace TrainingPlan.Controllers
 {
-
-
     public class PortfolioController : Controller
     {
+        private const string CourseDetailsFolder = "Courses/";
+        private const string CourseModuleFolder = "CourseModules/";
+
         // Course Portfolio
         [Route("Portfolio", Name = "portfolio")]
         public ActionResult TwoPageColumn()
@@ -17,18 +14,30 @@ namespace TrainingPlan.Controllers
             return View();
         }
 
-        // Course Details
-        [Route("Portfolio/{courseName}")]
-        public ActionResult SingleColumn(string courseName)
-        {
-            courseName = courseName.Replace("-", string.Empty);
+        //// Course Details
+        //[Route("Portfolio/{courseName}", Name = "courseDetails")]
+        //public ActionResult SingleColumn(string courseName)
+        //{
+        //    courseName = CourseDetailsFolder + courseName.Replace("-", string.Empty);
 
-            return View(courseName);
-        }
+        //    return View(courseName);
+        //}
 
-        public ActionResult CourseDetail()
+        [Route("Portfolio/{courseName}/{courseModule?}", Name = "courseModule")]
+        public ActionResult CourseModule(string courseName, string courseModule)
         {
-            return View();
+            // Course Name
+            if (!string.IsNullOrEmpty(courseName) && string.IsNullOrEmpty(courseModule))
+            {
+                courseName = CourseDetailsFolder + courseName.Replace("-", string.Empty);
+
+                return View(courseName);
+            }
+
+            // Course Module
+            courseModule = CourseDetailsFolder + CourseModuleFolder + courseModule.Replace("-", string.Empty);
+
+            return View(courseModule);
         }
 
         //public ActionResult ThreePageColumn()
