@@ -14,15 +14,6 @@ namespace TrainingPlan.Controllers
             return View();
         }
 
-        //// Course Details
-        //[Route("Portfolio/{courseName}", Name = "courseDetails")]
-        //public ActionResult SingleColumn(string courseName)
-        //{
-        //    courseName = CourseDetailsFolder + courseName.Replace("-", string.Empty);
-
-        //    return View(courseName);
-        //}
-
         [Route("Portfolio/{courseName}/{courseModule?}", Name = "courseModule")]
         public ActionResult CourseModule(string courseName, string courseModule)
         {

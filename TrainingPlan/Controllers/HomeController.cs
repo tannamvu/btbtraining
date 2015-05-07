@@ -23,18 +23,21 @@ namespace TrainingPlan.Controllers
             return View();
         }
 
+        [Route("Services", Name = "services")]
         public ActionResult Services()
         {
             ViewBag.ServicesIsActiveLink = "active";
             return View();
         }
 
+        [Route("AboutUs", Name = "aboutUs")]
         public ActionResult AboutUs()
         {
             ViewBag.AboutUsIsActiveLink = "active";
             return View();
         }
 
+        [Route("ContactUs", Name = "contactUs")]
         public ActionResult ContactUs()
         {
             ViewBag.ContactUsIsActiveLink = "active";
