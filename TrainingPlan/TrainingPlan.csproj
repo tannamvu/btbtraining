@@ -330,12 +330,13 @@
     <Content Include="Content\Upload\photo-feed6.jpg" />
     <Content Include="Content\Upload\photo-feed7.jpg" />
     <Content Include="Content\Upload\photo-feed8.jpg" />
+    <Content Include="Content\Upload\portfolio\customised-courses.jpg" />
+    <Content Include="Content\Upload\portfolio\management-and-leadership.jpg" />
+    <Content Include="Content\Upload\portfolio\personal-development.jpg" />
     <Content Include="Content\Upload\portfolio\port1.jpg" />
-    <Content Include="Content\Upload\portfolio\port4-1.jpg" />
     <Content Include="Content\Upload\portfolio\port4-10.jpg" />
     <Content Include="Content\Upload\portfolio\port4-11.jpg" />
     <Content Include="Content\Upload\portfolio\port4-12.jpg" />
-    <Content Include="Content\Upload\portfolio\port4-2.jpg" />
     <Content Include="Content\Upload\portfolio\port4-3.jpg" />
     <Content Include="Content\Upload\portfolio\port4-4.jpg" />
     <Content Include="Content\Upload\portfolio\port4-5.jpg" />
@@ -348,6 +349,7 @@
     <Content Include="Content\Upload\portfolio\recent3.jpg" />
     <Content Include="Content\Upload\portfolio\recent4.jpg" />
     <Content Include="Content\Upload\portfolio\recent5.jpg" />
+    <Content Include="Content\Upload\portfolio\sales-and-customer-service.jpg" />
     <Content Include="Content\Upload\revolution\background1_slider.jpg" />
     <Content Include="Content\Upload\revolution\for_blog.jpg" />
     <Content Include="Content\Upload\revolution\home_agency_2_slide_img.jpg" />
