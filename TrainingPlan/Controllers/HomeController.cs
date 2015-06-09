@@ -49,7 +49,7 @@ namespace TrainingPlan.Controllers
         {
             if (ModelState.IsValid)
             {
-                var body = string.Format("Name: {1}{0}{0} Email: {2}{0}{0} Message:{3}", Environment.NewLine, viewModel.Name, viewModel.Email, viewModel.Message);
+                var body = string.Format("Name: {1}{0}{0} Company Name: {2}{0}{0} Contact Number: {3}{0}{0} Email: {4}{0}{0} Message:{5}", Environment.NewLine, viewModel.Name, viewModel.CompanyName, viewModel.ContactNumber, viewModel.Email, viewModel.Message);
 
                 EmailService.SendEmail(viewModel.Subject, body);
             }
