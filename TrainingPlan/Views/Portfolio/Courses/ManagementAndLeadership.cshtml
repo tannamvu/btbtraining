@@ -1,4 +1,5 @@
 ﻿
+
 @{
     ViewBag.Title = "SingleColumn";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,58 +10,59 @@
 				
 				<div class="container">
 				
-					<div class="row">
-					    <div class="port-left col-md-8">
-					        <h1>Management & Leadership </h1>
-                            <img alt="" src="~/Content/Upload/portfolio/port1.jpg" style="width: 620px;" />
-					        @*<div class="flexslider">
-					            <ul class="slides">
-					                <li>
-					                    <img alt="" src="~/Content/Upload/portfolio/port1.jpg" />
-					                </li>
-					                <li>
-					                    <img alt="" src="~/Content/Upload/portfolio/port1.jpg" />
-					                </li>
-					            </ul>
-					        </div>*@
-					    </div>                    
+				    <div class="row">
 
-					    <div class="port-right col-md-4" style="padding-top: 60px;">
+				        <div class="port-left col-md-8">
+				            <div class="flexslider">
+				                <ul class="slides">
+				                    <li>
+				                        <img alt="" width="750px" src="~/Content/Upload/portfolio/port1.jpg" />
+				                    </li>
 							
-@*							<div class="post-pag">
+				                </ul>
+				            </div>
+				        </div>
+
+				        <div class="port-right col-md-4">
+							
+				            @*<div class="post-pag">
 								<a href="#" class="prevpost"><i class="fa fa-angle-left"></i></a>
 								<a href="#" class="middle"><i class="fa fa-th"></i></a>
 								<a href="#" class="nextpost"><i class="fa fa-angle-right"></i> </a>
 								<div class="clear"></div>
 							</div>*@
 							
-							<h1 class="leftmain-title">Management & Leadership</h1>
-							<div class="leftmain-border"></div>
+				            <h1 class="leftmain-title">Management & Leadership</h1>
+				            <div class="leftmain-border"></div>
 
-						    <p class="mb20">BTB’s management and leadership courses have been developed by experienced training consultants, all having come from senior management positions. With this knowledge, our trainers have the ability to relate our training methods to real life scenarios. Our Management & Leadership portfolio provides managers with pragmatic, robust programmes which are challenging, rewarding and inspiring.</p>
+				            <p class="mb20">BTB’s management and leadership courses have been developed by experienced training consultants, all having come from senior management positions. With this knowledge, our trainers have the ability to relate our training methods to real life scenarios. Our Management & Leadership portfolio provides managers with pragmatic, robust programmes which are challenging, rewarding and inspiring.</p>
                             
-                            <p>With a vast range of methods, tools and techniques as well as applying the latest thinking, managers and leaders will leave with a toolkit to work with their teams to become more productive. </p>
+				            <p>With a vast range of methods, tools and techniques as well as applying the latest thinking, managers and leaders will leave with a toolkit to work with their teams to become more productive. </p>
                             
-					        <p>Please contact the team on 07539 393496 or <a href="mailto:enquiries@btbtraining.com">enquiries@btbtraining.com</a> to discuss how we can help support your requirements.</p>
+				            <p>Please contact the team on 07539 393496 or <a href="mailto:enquiries@btbtraining.com">enquiries@btbtraining.com</a> to discuss how we can help support your requirements.</p>
 
-					        @*							<ul class="port-socials">
+				            @*<a href="#" class="continue mb30 mt30">View Project <i class="fa fa-angle-right"></i></a>*@
+
+				            @*<ul class="port-socials">
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 								<li><a href="#"><i class="fa fa-skype"></i></a></li>
 							</ul>*@
+                            
+                    
 
-					    </div>	
-                        
-                        <div class="port-right col-md-4" style="width: 40%;">
-					        <h1 class="leftmain-title">Course Library</h1>
+				        </div>	
+				    </div>
+				    <div class="row">
+				              <div class="port-right col-md-4" style="width: 40%;">
+					        <h1 class="leftmain-title">Courses</h1>
 					        <ul>
 					            <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Management-And-Leadership"})">Team Management</a></li>
 					        </ul>
 					    </div>
-
-					</div>
+				    </div>
 							
 				</div>
 				<!-- End Portfolio -->
@@ -68,14 +70,9 @@
 			</div>
 			<!-- end our work single -->
 
-			<div class="recent-projects">
-@*			    <h1 class="main-title">Recent Projects</h1>*@
-@*			    <div>
-			        <ul>
-			            <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Management-And-Leadership"})">Team Management</a></li>
-			        </ul>
-			    </div>*@
-				@*<div class="list_carousel responsive">
+			@*<div class="recent-projects">
+				<h1 class="main-title">Recent Projects</h1>
+				<div class="list_carousel responsive">
 					<ul id="foo4">
 						<li>
 							<div class="overlay">
@@ -201,12 +198,12 @@
 					<div class="clearfix"></div>
 					<a id="prev3" class="prev" href="#">&lt;</a>
 					<a id="next3" class="next" href="#">&gt;</a>
-				</div>*@
+				</div>
 				<!-- End List Carousel -->
 			</div>
 			<!-- End Latest Projects -->
 
-@*			<div class="impression brown-bg">
+			<div class="impression brown-bg">
 				<div class="container">
 					<h1>Are You Impressed?</h1>
 					<p>This is call to action area. You can put any important text here</p>
@@ -215,7 +212,7 @@
 			</div>*@
 
 
-@*	<script type="text/javascript" src="~/Content/Js/jquery.min.js"></script>
+	<script type="text/javascript" src="~/Content/Js/jquery.min.js"></script>
 	<script type="text/javascript" src="~/Content/Js/jquery.bxslider.js"></script>
 	<script type="text/javascript" src="~/Content/Js/bootstrap.js"></script>
   	<script type="text/javascript" src="~/Content/Js/jquery.isotope.min.js"></script>
@@ -241,4 +238,5 @@
 	
     <!-- Style Switcher -->
 	<script src="~/Content/Js/styleswitch.js"></script>
-	<script src="~/Content/Js/style_switch_custom.js"></script>*@
+	<script src="~/Content/Js/style_switch_custom.js"></script>
+
