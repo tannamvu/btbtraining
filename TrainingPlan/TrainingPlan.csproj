@@ -450,7 +450,8 @@
     <Content Include="Views\Portfolio\Courses\PersonalDevelopment.cshtml" />
     <Content Include="Views\Portfolio\Courses\SalesAndCustomerService.cshtml" />
     <Content Include="Views\Portfolio\Courses\CustomisedCourses.cshtml" />
-    <Content Include="Views\Portfolio\Courses\CourseModules\ManagementAndLeadership.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\AbsenceManagement.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\TimeManagement.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
