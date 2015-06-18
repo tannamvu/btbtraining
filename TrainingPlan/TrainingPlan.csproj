@@ -456,6 +456,10 @@
     <Content Include="Views\Portfolio\Courses\CustomisedCourses.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\AbsenceManagement.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\TimeManagement.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\HavingDifficultConversations.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\IntroductionToEmploymentLaw.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\DiversityAwareness.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\DiversityAwarenessManagerEvent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
