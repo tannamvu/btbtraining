@@ -477,6 +477,11 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\IntroductionToProjectManagement.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\DevelopingCreativityAndInnovation.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\TakingMinutes.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\CommercialAwareness.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\AdvancedFinance.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\BasicFinance.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\CriticalThinking .cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\WorkingCapitalManagement.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
