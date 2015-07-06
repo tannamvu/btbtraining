@@ -465,15 +465,15 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\ChallengingConversations.cshtml">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="Views\Portfolio\Courses\CourseModules\CoachingAndMentoring.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\ProblemSolvingAndDecisionMaking.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\CommunicationAndPeopleSkills .cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\CreatingPowerfulAndHighImpactReports.cshtml" />
-    <Content Include="Views\Portfolio\Courses\CourseModules\EmployeeMotivation.cshtml" />
-    <Content Include="Views\Portfolio\Courses\CourseModules\EstablishingAndDevelopingRelationships.cshtml" />
-    <Content Include="Views\Portfolio\Courses\CourseModules\IntroductionToChangeManagement.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\ManagingRemoteTeams.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\EstablishingAndDevelopingRelationships.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\EmployeeMotivation.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\IntroductionToChangeManagement.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\PersonalImpactAndEffectiveness.cshtml" />
-    <Content Include="Views\Portfolio\Courses\CourseModules\ProblemSolvingAndDecisionMaking.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\CoachingAndMentoring.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\IntroductionToProjectManagement.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\DevelopingCreativityAndInnovation.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\TakingMinutes.cshtml" />
