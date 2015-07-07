@@ -1,4 +1,8 @@
-﻿using System.Web.Mvc;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Web.Mvc;
+using TrainingPlan.Models;
 
 namespace TrainingPlan.Controllers
 {
@@ -20,9 +24,14 @@ namespace TrainingPlan.Controllers
             // Course Name
             if (!string.IsNullOrEmpty(courseName) && string.IsNullOrEmpty(courseModule))
             {
+                var viewModel = new CourseViewModel();
                 courseName = CourseDetailsFolder + courseName.Replace("-", string.Empty);
 
-                return View(courseName);
+                var courseFileNames = Directory.GetFiles(Server.MapPath("~/Content/" + courseName));
+                viewModel.Courses = courseFileNames.Select(t => t.Split('\\')).Select(split => split[split.Length - 1]).ToList();
+
+
+                return View(courseName, viewModel);
             }
 
             // Course Module

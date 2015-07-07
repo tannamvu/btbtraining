@@ -409,6 +409,21 @@
     <Content Include="Content\fonts\fontawesome-webfont.ttf" />
     <Content Include="Content\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\Courses\PersonalDevelopment\Advanced Presentation Skills.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Assertiveness.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Basic Finance.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Building Relationships.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Challenging Conversations.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Communication and People Skills.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Creating Powerful and High Impact Reports.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Critical Thinking.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Developing Creativity and Innovation.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Essential Negotiation Skills.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Introduction to Project Management.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Minute Taking.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Personal Impact and Effectiveness.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\The Art of Negotiation.docx" />
+    <Content Include="Content\Courses\PersonalDevelopment\Time Management and the Art of Prioritisation.docx" />
     <None Include="Properties\PublishProfiles\btbtraining - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\btbtraining - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\dev.pubxml" />
@@ -433,6 +448,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ContactUsViewModel.cs" />
+    <Compile Include="Models\CourseViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\EmailService.cs" />
   </ItemGroup>
@@ -482,6 +498,10 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\BasicFinance.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\CriticalThinking .cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\WorkingCapitalManagement.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\ProjectManagementOverview.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\EssentialNegotiationSkills.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\MinuteTaking.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\AdvancedPresentationSkills.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -491,6 +511,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Courses\ManagementAndLeadership\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
