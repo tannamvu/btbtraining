@@ -1,4 +1,4 @@
-﻿
+﻿@model TrainingPlan.Models.CourseViewModel
 @{
     ViewBag.Title = "SingleColumn";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -9,37 +9,37 @@
 				
 				<div class="container">
 				
-					<div class="row">
+				    <div class="row">
 
-						<div class="port-left col-md-8">
-							<div class="flexslider">
-								<ul class="slides">
-									<li>
+				        <div class="port-left col-md-8">
+				            <div class="flexslider">
+				                <ul class="slides">
+				                    <li>
 
-                                        <img alt="Sales and Customer Service Image" src="~/Content/Images/Updated/sales-and-customer-service.png" />
-									</li>
-								</ul>
-							</div>
-						</div>
+				                        <img alt="Sales and Customer Service Image" src="~/Content/Images/Updated/sales-and-customer-service.png" />
+				                    </li>
+				                </ul>
+				            </div>
+				        </div>
 
-						<div class="port-right col-md-4">
+				        <div class="port-right col-md-4">
 							
-							@*<div class="post-pag">
+				            @*<div class="post-pag">
 								<a href="#" class="prevpost"><i class="fa fa-angle-left"></i></a>
 								<a href="#" class="middle"><i class="fa fa-th"></i></a>
 								<a href="#" class="nextpost"><i class="fa fa-angle-right"></i> </a>
 								<div class="clear"></div>
 							</div>*@
 							
-							<h1 class="leftmain-title">Sales & Customer Service</h1>
-							<div class="leftmain-border"></div>
+				            <h1 class="leftmain-title">Sales & Customer Service</h1>
+				            <div class="leftmain-border"></div>
 
-						    <p class="mb20">Even the best can improve, high performing teams can sharpen their focus with new skills and methods. BTB Training’s Sales & Customer Service portfolio offers a range of challenging, practical courses developed by our trainers who have held senior sales and service positions. With this experience, our programmes can be tailored to meet your unique requirements. Participants will return to the workplace with awareness of their own default behaviours and a new found confidence to become more productive.</p>
-                            <p>Please contact the team on 07539 393496 or <a href="mailto:enquiries@btbtraining.com">enquiries@btbtraining.com</a> to discuss how we can help support your requirements.</p>
+				            <p class="mb20">Even the best can improve, high performing teams can sharpen their focus with new skills and methods. BTB Training’s Sales & Customer Service portfolio offers a range of challenging, practical courses developed by our trainers who have held senior sales and service positions. With this experience, our programmes can be tailored to meet your unique requirements. Participants will return to the workplace with awareness of their own default behaviours and a new found confidence to become more productive.</p>
+				            <p>Please contact the team on 07539 393496 or <a href="mailto:enquiries@btbtraining.com">enquiries@btbtraining.com</a> to discuss how we can help support your requirements.</p>
 
-							@*<a href="#" class="continue mb30 mt30">View Project <i class="fa fa-angle-right"></i></a>*@
+				            @*<a href="#" class="continue mb30 mt30">View Project <i class="fa fa-angle-right"></i></a>*@
 
-							@*<ul class="port-socials">
+				            @*<ul class="port-socials">
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -47,8 +47,19 @@
 								<li><a href="#"><i class="fa fa-skype"></i></a></li>
 							</ul>*@
 
-						</div>	
-					</div>
+				        </div>	
+				    </div>
+                       <div class="row">
+				              <div class="port-right col-md-4" style="width: 40%;">
+					        <h1 class="leftmain-title">Courses</h1>
+				                  <ul>
+                                      @foreach (var courseName in Model.Courses)
+                                      {
+                                        <li><a href="@Url.Content("~/Content/Courses/SalesAndCustomerService/" + courseName)">@courseName.Replace(".docx", "")</a></li>
+                                      }
+				                  </ul>
+					    </div>
+				    </div>
 							
 				</div>
 				<!-- End Portfolio -->

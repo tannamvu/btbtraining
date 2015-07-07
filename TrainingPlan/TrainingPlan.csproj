@@ -439,6 +439,9 @@
     <Content Include="Content\Courses\ManagementAndLeadership\Problem Solving &amp; Decision Making.docx" />
     <Content Include="Content\Courses\ManagementAndLeadership\Project Management Overview.docx" />
     <Content Include="Content\Courses\ManagementAndLeadership\Working Capital Management.docx" />
+    <Content Include="Content\Courses\SalesAndCustomerService\Advanced Sales Techniques.docx" />
+    <Content Include="Content\Courses\SalesAndCustomerService\Consultative Selling.docx" />
+    <Content Include="Content\Courses\SalesAndCustomerService\Introduction to Sales Basic Selling Skills.docx" />
     <None Include="Properties\PublishProfiles\btbtraining - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\btbtraining - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\dev.pubxml" />
