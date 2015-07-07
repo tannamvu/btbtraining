@@ -424,6 +424,21 @@
     <Content Include="Content\Courses\PersonalDevelopment\Personal Impact and Effectiveness.docx" />
     <Content Include="Content\Courses\PersonalDevelopment\The Art of Negotiation.docx" />
     <Content Include="Content\Courses\PersonalDevelopment\Time Management and the Art of Prioritisation.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Absence Management.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Advanced Finance.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Coaching and Mentoring Skills.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Commercial Awareness.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Diversity Awareness – Manager Event.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Diversity Awareness.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Employee Motivation.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Establishing and Developing Relationships.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Having Difficult Conversations.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Introduction to Change Management.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Introduction to Employment Law.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Managing Remote Teams.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Problem Solving &amp; Decision Making.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Project Management Overview.docx" />
+    <Content Include="Content\Courses\ManagementAndLeadership\Working Capital Management.docx" />
     <None Include="Properties\PublishProfiles\btbtraining - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\btbtraining - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\dev.pubxml" />
@@ -511,7 +526,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Courses\ManagementAndLeadership\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
