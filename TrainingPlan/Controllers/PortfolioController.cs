@@ -27,8 +27,9 @@ namespace TrainingPlan.Controllers
                 var viewModel = new CourseViewModel();
                 courseName = CourseDetailsFolder + courseName.Replace("-", string.Empty);
 
-                var courseFileNames = Directory.GetFiles(Server.MapPath("~/Content/" + courseName));
-                viewModel.Courses = courseFileNames.Select(t => t.Split('\\')).Select(split => split[split.Length - 1]).ToList();
+                // use this for downloading files
+                //var courseFileNames = Directory.GetFiles(Server.MapPath("~/Content/" + courseName));
+                //viewModel.Courses = courseFileNames.Select(t => t.Split('\\')).Select(split => split[split.Length - 1]).ToList();
 
 
                 return View(courseName, viewModel);
