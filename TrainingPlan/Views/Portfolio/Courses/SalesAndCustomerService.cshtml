@@ -51,13 +51,14 @@
 				    </div>
                        <div class="row">
 				              <div class="port-right col-md-4" style="width: 40%;">
-					        <h1 class="leftmain-title">Courses</h1>
-				                  <ul>
+				                  <h1 class="leftmain-title">Courses</h1>
+                          <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Sales-And-Customer-Service", courseModule = "Introduction-To-Sales-Basic-Selling"})">Introduction to Sales - Basic Selling Skills</a></li>
+				                  @*<ul>
                                       @foreach (var courseName in Model.Courses)
                                       {
                                         <li><a href="@Url.Content("~/Content/Courses/SalesAndCustomerService/" + courseName)">@courseName.Replace(".docx", "")</a></li>
                                       }
-				                  </ul>
+				                  </ul>*@
 					    </div>
 				    </div>
 							
