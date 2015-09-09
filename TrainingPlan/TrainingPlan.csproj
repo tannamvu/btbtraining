@@ -520,6 +520,9 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\EssentialNegotiationSkills.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\MinuteTaking.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\AdvancedPresentationSkills.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\IntroductionToSalesBasicSelling.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\AdvancedSalesTechniques.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\ConsultativeSelling.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
