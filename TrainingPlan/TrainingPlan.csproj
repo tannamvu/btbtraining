@@ -500,7 +500,7 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="Views\Portfolio\Courses\CourseModules\ProblemSolvingAndDecisionMaking.cshtml" />
-    <Content Include="Views\Portfolio\Courses\CourseModules\CommunicationAndPeopleSkills .cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\CommunicationAndPeopleSkills.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\CreatingPowerfulAndHighImpactReports.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\ManagingRemoteTeams.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\EstablishingAndDevelopingRelationships.cshtml" />
@@ -514,7 +514,7 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\CommercialAwareness.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\AdvancedFinance.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\BasicFinance.cshtml" />
-    <Content Include="Views\Portfolio\Courses\CourseModules\CriticalThinking .cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\CriticalThinking.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\WorkingCapitalManagement.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\ProjectManagementOverview.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\EssentialNegotiationSkills.cshtml" />
@@ -523,6 +523,7 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\IntroductionToSalesBasicSelling.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\AdvancedSalesTechniques.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\ConsultativeSelling.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\TheArtOfNegotiation.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
