@@ -44,11 +44,11 @@
 				            @*<a href="#" class="continue mb30 mt30">View Project <i class="fa fa-angle-right"></i></a>*@
 
 				            @*<ul class="port-socials">
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-skype"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a>  |</li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a>  |</li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a>  |</li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a>  |</li>
+								<li><a href="#"><i class="fa fa-skype"></i></a>  |</li>
 							</ul>*@
                             
                     
@@ -61,23 +61,23 @@
 				                  <ul>
 				                @*                                            @foreach (var courseName in Model.Courses)
                                       {
-                                        <li><a href="@Url.Content("~/Content/Courses/ManagementAndLeadership/" + courseName)">@courseName.Replace(".docx", "")</a></li>
+                                        <li><a href="@Url.Content("~/Content/Courses/ManagementAndLeadership/" + courseName)">@courseName.Replace(".docx", "")</a>  |</li>
                                       }*@
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Establishing-And-Developing-Relationships"})">Establishing And Developing Relationships</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Introduction-To-Change-Management"})">Introduction To Change Management</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Employee-Motivation"})">Employee Motivation</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Advanced-Finance"})">Advanced Finance</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Working-Capital-Management"})">Working Capital Management</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Commercial-Awareness"})">Commercial Awareness</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Managing-Remote-Teams"})">Managing Remote Teams</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Coaching-And-Mentoring"})">Coaching And Mentoring</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Problem-Solving-And-DecisionMaking"})">Problem Solving And Decision Making</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Project-Management-Overview"})">Project Management Overview</a></li>
-                                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Absence-Management"})">Absence Management</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Having-Difficult-Conversations"})">Having Difficult Conversations</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Introduction-To-Employment-Law"})">Introduction To Employment Law</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Diversity-Awareness"})">Diversity Awareness</a></li>
-				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Diversity-Awareness-Manager-Event"})">Diversity Awareness Manager Event</a></li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Establishing-And-Developing-Relationships"})">Establishing And Developing Relationships</a> |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Introduction-To-Change-Management"})">Introduction To Change Management</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Employee-Motivation"})">Employee Motivation</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Advanced-Finance"})">Advanced Finance</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Working-Capital-Management"})">Working Capital Management</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Commercial-Awareness"})">Commercial Awareness</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Managing-Remote-Teams"})">Managing Remote Teams</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Coaching-And-Mentoring"})">Coaching And Mentoring</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Problem-Solving-And-DecisionMaking"})">Problem Solving And Decision Making</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Project-Management-Overview"})">Project Management Overview</a>  |</li>
+                                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Absence-Management"})">Absence Management</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Having-Difficult-Conversations"})">Having Difficult Conversations</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Introduction-To-Employment-Law"})">Introduction To Employment Law</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Diversity-Awareness"})">Diversity Awareness</a>  |</li>
+				                      <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Diversity-Awareness-Manager-Event"})">Diversity Awareness Manager Event</a>  |</li>
 				                  </ul>
 					    </div>
 				    </div>
