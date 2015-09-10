@@ -2914,8 +2914,21 @@ margin-left: 10px;
     left: 0; }
   .timeline.animated .timeline-row.active:nth-child(odd) .timeline-content {
     left: 0; }
-
+     .course-list {
+        margin-top: -70px;
+         position: absolute;
+    }
+    .portfolio-summary {
+        height: 550px;
+    }
 @media (max-width: 1200px) {
+    .course-list {
+        margin-top: 0px;
+           position: relative;
+    }
+    .portfolio-summary {
+        height: inherit;
+    }
   .timeline {
     padding: 15px 10px; }
     .timeline:after {

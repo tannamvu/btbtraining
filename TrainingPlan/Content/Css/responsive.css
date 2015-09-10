@@ -1,5 +1,4 @@
 @media (max-width: 1200px) {
-	
         .features {
             height: 300px !important;
         }
@@ -50,6 +49,17 @@
 }
 
 @media (max-width: 992px) {
+    .course-list {
+        margin-top: 0;
+        position: relative;
+        width: 100%;
+    }
+    .portfolio-summary {
+        height: inherit;
+    }
+    .col-md-4 {
+        width: 100% !important;   
+    }
     .features {
         height: 210px !important;
         padding-top: 30px !important;
