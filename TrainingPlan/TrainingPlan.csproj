@@ -250,6 +250,7 @@
     <Content Include="Content\Images\Updated\connectb10.jpg" />
     <Content Include="Content\Images\Updated\connectb7.jpg" />
     <Content Include="Content\Images\Updated\customised-courses.png" />
+    <Content Include="Content\Images\Updated\favicon.ico" />
     <Content Include="Content\Images\Updated\management-and-leadership.png" />
     <Content Include="Content\Images\Updated\personal-development.png" />
     <Content Include="Content\Images\Updated\sales-and-customer-service.png" />

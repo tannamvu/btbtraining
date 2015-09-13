@@ -2761,6 +2761,7 @@ margin-left: 10px;
   color: #93959d;
   font-size: 14px;
   margin-bottom: 18px;
+  margin-left: 20px;
 }
 
 .site-features li i {
@@ -2916,7 +2917,8 @@ margin-left: 10px;
     left: 0; }
      .course-list {
         margin-top: -70px;
-         position: absolute;
+         margin-bottom: 40px;
+        /*position: absolute;*/
     }
     .portfolio-summary {
         height: 550px;
