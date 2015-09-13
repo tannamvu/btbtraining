@@ -49,6 +49,9 @@
 }
 
 @media (max-width: 992px) {
+        .course-list-padding {
+        height: 0 !important;
+    }
     .course-list {
         margin-top: 0;
         position: relative;

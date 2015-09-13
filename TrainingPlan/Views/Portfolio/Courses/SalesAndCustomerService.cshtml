@@ -49,22 +49,23 @@
 
 				        </div>	
 				    </div>
-                       <div class="row course-list">
-				              <div class="port-right col-md-4" style="width: 60%;">
-				                  <h1 class="leftmain-title">Courses</h1>
-                          <ul>
-                              <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Sales-And-Customer-Service", courseModule = "Introduction-To-Sales-Basic-Selling"})">Introduction to Sales - Basic Selling Skills</a> |</li>
-                              <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Sales-And-Customer-Service", courseModule = "Advanced-Sales-Techniques"})">Advanced Sales Techniques</a> |</li>
-                              <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Sales-And-Customer-Service", courseModule = "Consultative-Selling"})">Consultative-Selling</a></li>
-                          </ul>
-				                  @*<ul>
+				    <div class="row course-list" style="width: 60%;">
+				        <div class="port-right col-md-4" style="width: 60%;">
+				            <h1 class="leftmain-title">Courses</h1>
+				            <ul>
+				                <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Sales-And-Customer-Service", courseModule = "Introduction-To-Sales-Basic-Selling"})">Introduction to Sales - Basic Selling Skills</a> |</li>
+				                <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Sales-And-Customer-Service", courseModule = "Advanced-Sales-Techniques"})">Advanced Sales Techniques</a> |</li>
+				                <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Sales-And-Customer-Service", courseModule = "Consultative-Selling"})">Consultative-Selling</a></li>
+				            </ul>
+				            @*<ul>
                                       @foreach (var courseName in Model.Courses)
                                       {
                                         <li><a href="@Url.Content("~/Content/Courses/SalesAndCustomerService/" + courseName)">@courseName.Replace(".docx", "")</a></li>
                                       }
 				                  </ul>*@
-					    </div>
+				        </div>
 				    </div>
+                    <div class="row course-list-padding" style="height: 20px;"></div>
 							
 				</div>
 				<!-- End Portfolio -->

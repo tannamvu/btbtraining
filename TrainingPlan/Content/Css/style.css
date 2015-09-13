@@ -2917,8 +2917,8 @@ margin-left: 10px;
     left: 0; }
      .course-list {
         margin-top: -70px;
-         margin-bottom: 40px;
-        /*position: absolute;*/
+        margin-bottom: 40px;
+        position: absolute;
     }
     .portfolio-summary {
         height: 550px;
