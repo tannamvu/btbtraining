@@ -61,7 +61,7 @@
                           <li><a href="@Url.Content("~/Content/Courses/PersonalDevelopment/" + courseName)">@courseName.Replace(".docx", "")</a></li>
                         }*@
 
-                    <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Personal-Development", courseModule = "Essential-Negotiation-Skills"})">Essential Negotiation Skills</a> |</li>
+                    @*<li><a href="@Url.RouteUrl("courseModule", new { courseName = "Personal-Development", courseModule = "Essential-Negotiation-Skills"})">Essential Negotiation Skills</a> |</li>*@
                     <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Personal-Development", courseModule = "Communication-And-People-Skills" })">Communication And People Skills</a> |</li>
                     <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Personal-Development", courseModule = "Personal-Impact-And-Effectiveness" })">Personal Impact And Effectiveness</a> |</li>
                     <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Personal-Development", courseModule = "Assertiveness" })">Assertiveness</a> |</li>
