@@ -62,8 +62,7 @@
 				                @*                                            @foreach (var courseName in Model.Courses)
                                       {
                                         <li><a href="@Url.Content("~/Content/Courses/ManagementAndLeadership/" + courseName)">@courseName.Replace(".docx", "")</a>  |</li>
-                                      }*@
-				                <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Establishing-And-Developing-Relationships"})">Establishing And Developing Relationships</a> |</li>
+                                      }*@				                
 				                <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Introduction-To-Change-Management"})">Introduction To Change Management</a>  |</li>
 				                <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Employee-Motivation"})">Employee Motivation</a>  |</li>
 				                <li><a href="@Url.RouteUrl("courseModule", new { courseName = "Management-And-Leadership", courseModule = "Advanced-Finance"})">Advanced Finance</a>  |</li>
