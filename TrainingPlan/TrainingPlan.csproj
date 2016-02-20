@@ -248,6 +248,7 @@
     <Content Include="Content\Images\Originals\sales2.jpg" />
     <Content Include="Content\Images\Originals\sales3.jpg" />
     <Content Include="Content\Images\preloader.GIF" />
+    <Content Include="Content\Images\relationships.png" />
     <Content Include="Content\Images\right.png" />
     <Content Include="Content\Images\search.png" />
     <Content Include="Content\Images\submit.png" />
@@ -452,6 +453,7 @@
     <None Include="Properties\PublishProfiles\btbtraining - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\btbtraining - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\dev.pubxml" />
+    <None Include="Properties\PublishProfiles\local.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -463,7 +465,9 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -478,7 +482,9 @@
     <Compile Include="Services\EmailService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
+    <Content Include="Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
@@ -531,6 +537,7 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\AdvancedSalesTechniques.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\ConsultativeSelling.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\TheArtOfNegotiation.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\TransformationalManagementAndLeadership.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
