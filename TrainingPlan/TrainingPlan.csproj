@@ -538,6 +538,12 @@
     <Content Include="Views\Portfolio\Courses\CourseModules\ConsultativeSelling.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\TheArtOfNegotiation.cshtml" />
     <Content Include="Views\Portfolio\Courses\CourseModules\TransformationalManagementAndLeadership.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\RecognisingUnconsciousBiasInRecruitment.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\DataProtection.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\RiskManagement.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\HandlingConflict.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\SupplierManagement.cshtml" />
+    <Content Include="Views\Portfolio\Courses\CourseModules\CoachingAndMentoringConsultancyProgrammes.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
