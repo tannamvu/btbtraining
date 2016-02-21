@@ -2770,6 +2770,18 @@ margin-left: 10px;
   margin-right: 10px;
 }
 
+.site-features-table li {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.site-features-table li i {
+  font-size: 14px;
+  color: #EA9623;
+  margin-right: 10px;
+}
+
+
 .history {
   padding: 80px 0;
 }

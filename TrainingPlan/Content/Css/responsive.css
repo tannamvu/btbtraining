@@ -185,7 +185,9 @@
 	padding: 20px 0;
 	}
 
-
+            #building-relationships {
+        width: 550px;
+    }
 	
 }
 
@@ -351,7 +353,9 @@
 	right: 32.5%;
 	bottom: -50px;
 	}
-
+        #building-relationships {
+        width: 500px;
+    }
 }
 
 @media (max-width: 582px) {
@@ -416,5 +420,8 @@
 right: 22.5%;
 bottom: -50px;
 }
+    #building-relationships {
+        width: 400px;
+    }
 
 }
