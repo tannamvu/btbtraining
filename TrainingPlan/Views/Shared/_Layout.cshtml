@@ -91,7 +91,8 @@
                                         </li>
                                     </ul>
                                 </li>*@
-                                <li class="drop"><a href="@Url.RouteUrl("portfolio")">Portfolio</a>
+                                <li class="drop @ViewBag.PortfolioIsActiveLink">
+                                    <a href="@Url.RouteUrl("portfolio")">Portfolio</a>
                                     <ul class="drop-down">
                                         <li><a href="~/Portfolio/Management-And-Leadership">Management & Leadership</a></li>
                                         <li><a href="~/Portfolio/Personal-Development">Personal Development</a></li>
@@ -99,6 +100,7 @@
                                         <li><a href="~/Portfolio/Customised-Courses">Customised Courses</a></li>
                                     </ul>
                                 </li>
+                                <li class="@ViewBag.WhoWeWorkWithIsActiveLink"><a href="@Url.RouteUrl("whoWeWorkWith")">Who We Work With</a></li>
                                 <li class="@ViewBag.AboutUsIsActiveLink"><a href="@Url.RouteUrl("aboutUs")">About Us</a></li>
                                 @*
                                 <li class="drop"><a href="blog.html">Blog</a>

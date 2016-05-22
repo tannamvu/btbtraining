@@ -37,6 +37,13 @@ namespace TrainingPlan.Controllers
             return View();
         }
 
+        [Route("WhoWeWorkWith", Name = "whoWeWorkWith")]
+        public ActionResult WhoWeWorkWith()
+        {
+            ViewBag.WhoWeWorkWithIsActiveLink = "active";
+            return View();
+        }
+
         [Route("ContactUs", Name = "contactUs")]
         public ActionResult ContactUs()
         {

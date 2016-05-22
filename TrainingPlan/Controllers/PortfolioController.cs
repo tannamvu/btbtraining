@@ -15,6 +15,7 @@ namespace TrainingPlan.Controllers
         [Route("Portfolio", Name = "portfolio")]
         public ActionResult TwoPageColumn()
         {
+            ViewBag.PortfolioIsActiveLink = "active";
             return View();
         }
 
